@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca671430-7657-4047-857a-f733e8928c25" name="Changes" comment="add positiveFillPracticeFormTest">
+    <list default="true" id="ca671430-7657-4047-857a-f733e8928c25" name="Changes" comment="add remote start">
+      <change afterPath="$PROJECT_DIR$/src/test/java/helpers/Attach.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/guru/qa/PracticeFormTestsWithJenkins.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/guru/qa/PracticeFormTestsWithJenkins.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -327,7 +328,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762887515488</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add remote start">
+      <option name="closed" value="true" />
+      <created>1762889979172</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1762889979172</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -335,6 +344,7 @@
     <MESSAGE value="add allure" />
     <MESSAGE value="fix negative tests" />
     <MESSAGE value="add positiveFillPracticeFormTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="add positiveFillPracticeFormTest" />
+    <MESSAGE value="add remote start" />
+    <option name="LAST_COMMIT_MESSAGE" value="add remote start" />
   </component>
 </project>
