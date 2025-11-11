@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca671430-7657-4047-857a-f733e8928c25" name="Changes" comment="screenshot attach">
+    <list default="true" id="ca671430-7657-4047-857a-f733e8928c25" name="Changes" comment="fix afterEach">
       <change beforePath="$PROJECT_DIR$/src/test/java/guru/qa/PracticeFormTestsWithJenkins.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/guru/qa/PracticeFormTestsWithJenkins.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -343,7 +343,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762891694190</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="fix afterEach">
+      <option name="closed" value="true" />
+      <created>1762892042679</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1762892042679</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -353,6 +361,7 @@
     <MESSAGE value="add positiveFillPracticeFormTest" />
     <MESSAGE value="add remote start" />
     <MESSAGE value="screenshot attach" />
-    <option name="LAST_COMMIT_MESSAGE" value="screenshot attach" />
+    <MESSAGE value="fix afterEach" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix afterEach" />
   </component>
 </project>

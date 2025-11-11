@@ -27,8 +27,11 @@ public class PracticeFormTestsWithJenkins {
     }
 
     @AfterEach
-    void afterEach(){
+    void addAttachments(){
         Attach.screenshotAs("Last screenshot");
+        Attach.pageSource();
+        Attach.browserConsoleLogs();
+
     }
 
 
