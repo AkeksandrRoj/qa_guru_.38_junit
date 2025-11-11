@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca671430-7657-4047-857a-f733e8928c25" name="Changes" comment="add pageSource. browserConsoleLogs">
-      <change afterPath="$PROJECT_DIR$/src/test/java/guru/qa/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/guru/qa/PracticeFormTestsWithJenkins.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/guru/qa/PracticeFormTestsWithJenkins.java" afterDir="false" />
+    <list default="true" id="ca671430-7657-4047-857a-f733e8928c25" name="Changes" comment="add  class TestBase">
+      <change beforePath="$PROJECT_DIR$/src/test/java/guru/qa/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/guru/qa/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -360,7 +359,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762892494249</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add  class TestBase">
+      <option name="closed" value="true" />
+      <created>1762892840547</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1762892840547</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -372,6 +379,7 @@
     <MESSAGE value="screenshot attach" />
     <MESSAGE value="fix afterEach" />
     <MESSAGE value="add pageSource. browserConsoleLogs" />
-    <option name="LAST_COMMIT_MESSAGE" value="add pageSource. browserConsoleLogs" />
+    <MESSAGE value="add  class TestBase" />
+    <option name="LAST_COMMIT_MESSAGE" value="add  class TestBase" />
   </component>
 </project>
