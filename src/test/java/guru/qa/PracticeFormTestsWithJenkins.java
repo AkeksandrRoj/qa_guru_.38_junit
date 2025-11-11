@@ -26,7 +26,7 @@ public class PracticeFormTestsWithJenkins {
         SelenideLogger.addListener("allure", new AllureSelenide());
     }
 
-    AfterEach
+    @AfterEach
     void afterEach(){
         Attach.screenshotAs("Last screenshot");
     }
