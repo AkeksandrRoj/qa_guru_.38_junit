@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca671430-7657-4047-857a-f733e8928c25" name="Changes" comment="fix afterEach">
+    <list default="true" id="ca671430-7657-4047-857a-f733e8928c25" name="Changes" comment="add pageSource. browserConsoleLogs">
+      <change afterPath="$PROJECT_DIR$/src/test/java/guru/qa/TestBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/guru/qa/PracticeFormTestsWithJenkins.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/guru/qa/PracticeFormTestsWithJenkins.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -351,7 +352,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762892042679</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add pageSource. browserConsoleLogs">
+      <option name="closed" value="true" />
+      <created>1762892494249</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1762892494249</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -362,6 +371,7 @@
     <MESSAGE value="add remote start" />
     <MESSAGE value="screenshot attach" />
     <MESSAGE value="fix afterEach" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix afterEach" />
+    <MESSAGE value="add pageSource. browserConsoleLogs" />
+    <option name="LAST_COMMIT_MESSAGE" value="add pageSource. browserConsoleLogs" />
   </component>
 </project>
