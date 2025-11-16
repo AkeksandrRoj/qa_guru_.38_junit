@@ -39,50 +39,25 @@ dependencies {
     )
 }
 
-tasks.withType(Test) {
-    useJUnitPlatform()
-
-    testLogging {
-        lifecycle {
-            events "started", "skipped", "failed", "standard_error", "standard_out"
-            exceptionFormat "short"
-        }
-    }
-}
-
-//tasks.register('simple_test', Test) {
-//    useJUnitPlatform {
-//        includeTags("simple")
-//    }
-//}
-
-
-tasks.withType(Test) {
-    useJUnitPlatform()
-
-    testLogging {
-        lifecycle {
-            events "started", "skipped", "failed", "standard_error", "standard_out"
-            exceptionFormat "short"
-        }
-    }
-}
-
-task test(type: Test) {
+tasks.register('homeWork_test', Test) {
     useJUnitPlatform {
-
+        includeTags("homeWork")
     }
+}
 
-
-    task homeWork_test(type: Test) {
-        useJUnitPlatform {
-            includeTags("homeWork")
-        }
+tasks.register('simple_test', Test) {
+    useJUnitPlatform {
+        includeTags("simple")
     }
+}
 
-    task simple_test(type: Test) {
-        useJUnitPlatform {
-            includeTags("simple")
+tasks.withType(Test) {
+    useJUnitPlatform()
+
+    testLogging {
+        lifecycle {
+            events "started", "skipped", "failed", "standard_error", "standard_out"
+            exceptionFormat "short"
         }
     }
 }
