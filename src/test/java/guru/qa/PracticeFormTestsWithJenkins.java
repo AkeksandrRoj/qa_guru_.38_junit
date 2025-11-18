@@ -62,12 +62,12 @@ public class PracticeFormTestsWithJenkins extends TestBase {
         });
         step("Задаем штат: ", () -> {
             $("#state").click();
-            $("#stateCity-wrapper").$(byText("Rajasthan")).click();
+            $("#stateCity-wrapper").$(byText("NCR")).click();
         });
-//        step("Задаем город: ", () -> {
-//            $("#city").click();
-//            $("#stateCity-wrapper").$(byText("Jaiselmer")).click();
-//        });
+        step("Задаем город: ", () -> {
+            $("#city").click();
+            $("#stateCity-wrapper").$(byText("Jaiselmer")).click();
+        });
         step("Отправляем форму", () -> {
             $("#submit").click();
         });
@@ -89,7 +89,7 @@ public class PracticeFormTestsWithJenkins extends TestBase {
             $(".modal-body").shouldHave(text("Picture1.png"));
             $(".modal-body").shouldHave(text("Something address"));
             $(".modal-body").shouldHave(text("Rajasthan"));
-            $(".modal-body").shouldHave(text("Jaiselmer"));
+           $(".modal-body").shouldHave(text("Jaiselmer"));
         });
     }
 
