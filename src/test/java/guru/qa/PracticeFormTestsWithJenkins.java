@@ -64,10 +64,10 @@ public class PracticeFormTestsWithJenkins extends TestBase {
             $("#state").click();
             $("#stateCity-wrapper").$(byText("Rajasthan")).click();
         });
-        step("Задаем город: ", () -> {
-            $("#city").click();
-            $("#stateCity-wrapper").$(byText("Jaiselmer")).click();
-        });
+//        step("Задаем город: ", () -> {
+//            $("#city").click();
+//            $("#stateCity-wrapper").$(byText("Jaiselmer")).click();
+//        });
         step("Отправляем форму", () -> {
             $("#submit").click();
         });
