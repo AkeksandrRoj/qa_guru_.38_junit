@@ -38,6 +38,18 @@ dependencies {
             "io.qameta.allure:allure-selenide:2.30.0"
     )
 }
+tasks.withType(Test) {
+    systemProperties(System.getProperties())
+    useJUnitPlatform()
+
+    testLogging {
+        lifecycle {
+            events "started", "skipped", "failed", "standard_error", "standard_out"
+            exceptionFormat "short"
+        }
+    }
+}
+
 
 
 
@@ -59,13 +71,9 @@ tasks.register('smoke_test', Test) {
     }
 }
 
-tasks.withType(Test) {
-    useJUnitPlatform()
-
-    testLogging {
-        lifecycle {
-            events "started", "skipped", "failed", "standard_error", "standard_out"
-            exceptionFormat "short"
-        }
+tasks.register('property_test', Test) {
+    useJUnitPlatform {
+        includeTags("property")
     }
 }
+
