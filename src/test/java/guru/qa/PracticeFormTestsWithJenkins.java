@@ -19,7 +19,6 @@ public class PracticeFormTestsWithJenkins extends TestBase {
 
 
     @Tag("homeWork")
-    @Tag("smoke")
     @Test
     void positiveFillPracticeFormTest() {
         step("Открываем страницу формы", () -> {
@@ -62,11 +61,14 @@ public class PracticeFormTestsWithJenkins extends TestBase {
         });
         step("Задаем штат: ", () -> {
             $("#state").click();
-            $("#stateCity-wrapper").$(byText("NCR")).click();
+          $("#stateCity-wrapper").$(byText("NCR")).click();
+
+
         });
         step("Задаем город: ", () -> {
             $("#city").click();
-            $("#stateCity-wrapper").$(byText("Jaiselmer")).click();
+           $("#stateCity-wrapper").$(byText("Jaiselmer")).click();
+
         });
         step("Отправляем форму", () -> {
             $("#submit").click();
