@@ -1,32 +1,66 @@
-.gradle
-.idea
+########################################
+# Gradle
+########################################
+.gradle/
 build/
 !gradle/wrapper/gradle-wrapper.jar
-!**/src/main/**/build/
-!**/src/test/**/build/
 
-### IntelliJ IDEA ###
-.idea/modules.xml
-.idea/jarRepositories.xml
-.idea/compiler.xml
-.idea/libraries/
+# Сборки в src (если вдруг появятся)
+**/src/**/build/
+**/src/**/out/
+**/src/**/bin/
+
+########################################
+# IntelliJ IDEA
+########################################
+.idea/
 *.iws
 *.iml
 *.ipr
+
+# Каталоги, создаваемые IDE
 out/
-!**/src/main/**/out/
-!**/src/test/**/out/
 
-
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
-
-
-
-### Mac OS ###
-.DS_Store
-/.gradle
-/.idea
+########################################
+# Java
+########################################
+*.class
 *.log
-!build.gradle
+
+########################################
+# Allure
+########################################
+allure-results/
+allure-report/
+
+########################################
+# Logs
+########################################
+*.log
+logs/
+log/
+
+########################################
+# OS files
+########################################
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+########################################
+# Archives
+########################################
+*.zip
+*.7z
+*.tar
+*.gz
+
+########################################
+# Misc
+########################################
+*.tmp
+*.swp
+*.bak
