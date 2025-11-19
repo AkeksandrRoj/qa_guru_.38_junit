@@ -19,7 +19,7 @@ public class PracticeFormTestsWithJenkins extends TestBase {
 
 
     @Tag("smoke")
-    @Tag("homeWork_test")
+    @Tag("homeWork")
     @Test
     void positiveFillPracticeFormTest() {
 

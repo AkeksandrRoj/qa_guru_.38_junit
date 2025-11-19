@@ -16,10 +16,9 @@ public class TestBase {
         Configuration.baseUrl = "https://demoqa.com/";
         Configuration.browserSize = "1920x1080";
         Configuration.pageLoadStrategy = "eager";
-        //Configuration.remote = "https://selenoid.autotests.cloud/";
         Configuration.remote = System.getProperty("remote");
         Configuration.browser = System.getProperty("browser", "chrome");
-        Configuration.browserVersion = System.getProperty("browserVersion", "128.0");
+        Configuration.browserVersion = System.getProperty("browserVersion");
         Configuration.browserSize = System.getProperty("browserResolution", "1920x1080");
 
         SelenideLogger.addListener("allure", new AllureSelenide());
@@ -40,3 +39,4 @@ public class TestBase {
         Attach.addVideo();
     }
 }
+
